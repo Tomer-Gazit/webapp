@@ -8,7 +8,7 @@ stages {
   }
   stage('Cloning Git') {
     steps {
-      git https://github.com/Tomer-Gazit/webapp.git
+      git clone https://github.com/Tomer-Gazit/webapp.git
     }
   }
   stage('Building Image') {
